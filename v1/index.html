@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MetroCert — Laboratoire d'étalonnage à Dakar</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #1f2937; line-height: 1.5; }
+  section, header, footer { padding: 48px 20px; }
+  .wrap { max-width: 1000px; margin: 0 auto; }
+  h1 { font-size: 2rem; margin: 0 0 16px; }
+  h2 { font-size: 1.5rem; margin: 0 0 24px; color: #0b3d91; }
+  .hero { background: #0b3d91; color: #fff; text-align: center; }
+  .hero p { margin: 0 0 24px; }
+  .btn { display: inline-block; background: #f59e0b; color: #111; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: bold; }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+  .grid > * { min-width: 0; }
+  .card { background: #f3f4f6; border-radius: 8px; padding: 20px; text-align: center; }
+  .card strong { display: block; font-size: 1.8rem; color: #0b3d91; }
+  .alt { background: #f9fafb; }
+  ol { padding-left: 20px; }
+  ul.tags { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  ul.tags li { min-width: 0; background: #e5e7eb; padding: 8px 14px; border-radius: 20px; }
+  footer { background: #111827; color: #d1d5db; text-align: center; font-size: .9rem; }
+  a { overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p>MetroCert · Zone industrielle de Mbao, Dakar</p>
+    <h1>Vos instruments étalonnés, votre certificat en 24 h</h1>
+    <p>Laboratoire d'étalonnage pour l'industrie sénégalaise.</p>
+    <a class="btn" href="https://metrocert.netlify.app/contact">Demander un étalonnage</a>
+  </div>
+</header>
+
+<section>
+  <div class="wrap grid">
+    <div class="card"><strong>150</strong>certificats par mois</div>
+    <div class="card"><strong>24 h</strong>délai de livraison</div>
+    <div class="card"><strong>0</strong>ressaisie</div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Nos prestations</h2>
+    <div class="grid">
+      <div class="card">Pression</div>
+      <div class="card">Température</div>
+      <div class="card">Masse</div>
+      <div class="card">Dimensionnel</div>
+      <div class="card">Électrique</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Comment ça marche</h2>
+    <ol>
+      <li>Vous nous envoyez la demande et vos instruments.</li>
+      <li>Nous étalonnons selon les procédures du laboratoire.</li>
+      <li>Vous recevez votre certificat sous 24 h.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Secteurs</h2>
+    <ul class="tags">
+      <li>Agroalimentaire</li>
+      <li>Pharmaceutique</li>
+      <li>Pétrole et gaz</li>
+      <li>Mines</li>
+      <li>BTP</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p>E-mail : <a href="mailto:contact@metrocert.sn">contact@metrocert.sn</a><br>
+    Téléphone : <a href="tel:+221330000000">+221 33 000 00 00</a></p>
+  </div>
+</section>
+
+<footer>Prototype pédagogique GET 409 — données fictives</footer>
+</body>
+</html>
